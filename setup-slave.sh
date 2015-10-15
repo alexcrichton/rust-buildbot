@@ -44,6 +44,6 @@ case $MACHTYPE in
 			fi
 		done
 		echo "starting slave..."
-		buildslave restart slave
+		buildslave restart slave $2
 		;;
 esac
